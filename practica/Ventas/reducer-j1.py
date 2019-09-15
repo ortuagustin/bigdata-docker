@@ -6,7 +6,7 @@ import sys
 last_key = None
 for line in sys.stdin:
     line = line.strip()
-    values = line.split(':', 2)
+    values = line.split(':')
     id_sucursal, id_producto, cantidad_vendida = values
     key = (id_sucursal, id_producto)
 
